@@ -8,7 +8,9 @@ As I understand Lacan, these are largely the dimensions of both unconscious and 
     * Drives
     * Sensations
     * Jouissance
+      
     In relation: Imaginary and Symbolic
+   
     The actual values of these will be "unknowable." A network will be trained to return values in relation to the Imaginary and Symbolic orders.
        
     Methods:
