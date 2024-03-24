@@ -8,12 +8,12 @@ def create_app(config="dev"):
         CORSMiddleware, allow_origins=['*'], allow_methods=['*'], allow_headers=['*'],
     )
 
-    @app.post("/self")
-    def self():
+    @app.post("/subject")
+    def subject():
         return {"status": "healthy"}
 
     @app.post("/experience")
-    def experience():
+    def experience(subject):
         return {"status": ""}
 
     return app
